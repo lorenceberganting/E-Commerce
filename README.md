@@ -17,16 +17,13 @@
 
 ## **Features**:
 
-## Features by Lorence Berganting
+## Features by Lorence Berganting and Roy Paul Narido
 
 User Resources:
 
 - User registration
 - User authentication
-- Dark Mode Idea
-
-## Features by Roy Paul Narido
-- Dark Mode 
+- Dark Mode
 Cart Resources:
 - Add To User Cart
 - Get User Cart
