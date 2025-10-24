@@ -1,0 +1,70 @@
+:root {
+  --background-color: #F8F9FA;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+/*  background-color: var(--background-color);*/
+}
+
+/*Container full height*/
+.container--full {
+	height: 100vh;
+}
+
+/*Card Size*/
+.card--container {
+  width: 20rem;
+  min-height: 100%;
+}
+
+/*Card Img Size*/
+.img--container {
+  height: 10%;
+}
+
+/*border none*/
+.border--none{
+  border: none;
+  border-width: 0;
+}
+
+/*clickable*/
+.clickable{
+  cursor: pointer;
+}
+
+/*SearchBar*/
+#search--bar {
+  width: 30%;
+  min-width: 200px;
+}
+
+/*View Product Template and Sizing*/
+.product--box {
+  width: 60rem;
+}
+
+.input--text {
+  font-size:2rem;
+}
+
+.container--overflow{
+  overflow: hidden;
+}
+
+/*When resizing window*/
+.textbox {
+    width: 100%;
+    max-width: 400px; /* Default max-width */
+}
+
+/* Adjust max-width for larger screens */
+@media (min-width: 200px) {
+    .textbox {
+        max-width: 400px;
+    }
+}
+
